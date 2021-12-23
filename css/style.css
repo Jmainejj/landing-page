@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0;  
+    background: rgb(36, 36, 36);
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    
+     
+}
+.header-bottom{
+    margin-bottom: 50px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-link > ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding-right: 16px;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.header-bottom-left{
+    
+}
+.img-box{
+    width: 230px;
+    height: 125px;
+    background: orangered;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left, #232526, #414345)
+}
+.content-cards{
+    display: flex;
+    gap: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.div-box{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 1px;
+}
+.chevy{
+}
+.ford{
+}
+.jeep{
+}
+.toyota{
+}
+/* .ford{
+    background: violet;
+}
+.jeep{
+    background: greenyellow;
+}
+.suburu{
+    background: blue;
+} */
+.content-quote-box{
+    background: #414345;
+    display: flex;
+
+    
+}
+/* content-quote-box > content-quote{
+    display: flex;
+} */
+.div-box{
+    margin-bottom: 50px;
+}
+.content-quote{
+   margin: 10%;
+}
+.
+.content-signon{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* flex-direction: row; */
+    margin: 10% 10%;
+    background: #323435;
+}
+.signon-left{
+    color: whitesmoke;
+    display: flex;
+    justify-content: column;
+}
+.signon-left{
+    background: rgb(55, 55, 70);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content-heading{
+    display: flex;
+    justify-content: center;
+}
+.leftt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
